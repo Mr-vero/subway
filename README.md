@@ -1,7 +1,7 @@
-Zed
+Subway - Based on Zed
 ======
 
-Welcome to [Zed](http://zedapp.org), a code editor built using web technologies, designed to rethink some of the assumptions that underly most editors today. Some of the editor's core features are the features it does **not** have:
+Welcome to [Subway](http://subwayapp.com), a code editor built using web technologies, designed to rethink some of the assumptions that underly most editors today. Some of the editor's core features are the features it does **not** have:
 
 * Tabs
 * Always visible file tree
@@ -21,24 +21,12 @@ What you get instead is a bare bones, simple yet powerful editor that focuses on
   coffeescript).
 * Editing of local files (via Chrome-specific APIs) and remote files (check the manual on how to do this)
 
-Installation (Chrome App)
---------------------------
-You can install Zed [via the Chrome Web Store](https://chrome.google.com/webstore/detail/zed/pfmjnmeipppmcebplngmhfkleiinphhp), or by cloning the github repo:
-
-    $ git clone https://github.com/zedapp/zed.git
-    $ cd zed
-    $ git submodule update --init
-
-Then, in (a recent version of) Chrome, go to the "three-lined" menu > Tools >
-Extensions and click the "Load unpacked extension..." button, navigate to the
-`app` directory inside the Zed repository checkout. Zed should now run!
-
 Installation (Standalone)
 -------------------------
 
 To build locally:
 
-    $ git clone https://github.com/zedapp/zed.git
+    $ git clone https://github.com/subwayapp/subway.git
     $ cd zed
     $ git submodule update --init
 
@@ -73,7 +61,3 @@ Technology
 * [Underscore.js](http://underscorejs.org)
 * [Require.js](http://requirejs.org)
 
-Support
--------
-
-[![Support via Gittip](https://rawgithub.com/twolfson/gittip-badge/0.2.0/dist/gittip.png)](https://www.gittip.com/zefhemel/)
