@@ -26,7 +26,7 @@ Installation (Standalone)
 
 To build locally:
 
-    $ git clone https://github.com/subwayapp/subway.git
+    $ git clone https://github.com/Mr-vero/subway.git
     $ cd zed
     $ git submodule update --init
 
